@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DogeBTC</title>
+</head> 
+	<style>
+		body {
+			background-color: black;			
+		}
+	</style>
+
+	<script type="text/javascript">
+		// set your interval in milliseconds
+		var reloadInterval = 15000;
+		// this will run when the document is fully loaded
+		function init() {
+			//setTimeout('reload()', reloadInterval);
+		}
+		// this reloads the iframe, and triggers the next reload interval
+		function reload() {
+			var iframes = document.getElementsByTagName('iframe');
+			if (!iframes)
+				return false;
+
+			for (var i = 0; i < iframes.length; i++)
+				iframes[i].src = iframes[i].src;
+
+			//setTimeout('reload()', reloadInterval);
+      reloading=reloadInterval;
+		}
+    reloading=reloadInterval;
+		var x = setInterval(function() {
+			reloading-=1000;
+      document.getElementById('status').innerText=(reloading/1000)+'/s Reload';
+      if(reloading<1)
+      {
+        location.reload();
+        //reload();
+      }
+		}, 1000);
+	</script>
+
+</head>
+
+<body style="margin: 0;">
+  <div style="background:white;margin: 0;">
+  [<a href="https://t.me/TheRealDogeBTC"/>https://t.me/TheRealDogeBTC</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://t.me/TheRealDogeBTC"/>https://t.me/TheRealDogeBTC</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <span id="status"></span>
+</div>
+	<table>
+		<tr>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+		</tr>
+			<tr>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+		</tr>
+			<tr>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+			<td><iframe
+					src="https://www.dextools.io/app/pancakeswap/pair-explorer/0x2c24aa511b88a54c916e16c20e7a7fc4212b7835"
+					width="400" height="250" scrolling="no"></iframe></td>
+		</tr>
+	</table>
+  </body>
+</html>
